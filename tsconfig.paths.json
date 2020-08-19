@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ],
+      "@common/*": [
+        "src/common/*"
+      ],
+      "@store/*": [
+        "src/common/store/*"
+      ],
+      "@routes/*": [
+        "src/common/routes/*"
+      ],
+      "@client/*": [
+        "src/client/*"
+      ],
+      "@utils/*": [
+        "src/common/utils/*"
+      ],
+      "@server/*": [
+        "src/server/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@public/*": [
+        "public/*"
+      ],
+      "@home/*": [
+        "src/common/routes/home/*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "client": [
+    "/assets/vendors.js",
+    "/assets/client.js"
+  ],
+  "null": [
+    "/assets/0.js"
+  ],
+  "home": [
+    "/assets/home.js"
+  ]
+}

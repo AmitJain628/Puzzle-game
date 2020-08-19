@@ -1,0 +1,5 @@
+{
+  "client.js": "/assets/client.js",
+  "home.js": "/assets/home.js",
+  "vendors.js": "/assets/vendors.js"
+}

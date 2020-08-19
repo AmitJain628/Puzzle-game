@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+<file path="">
+<testCase name="Login method: check page should have title" duration="5854"/>
+<testCase name="Login method: check for logo click" duration="1923"/>
+<testCase name="Login method: check login guard protected after user successfully login" duration="7056"/>
+<testCase name="Login method: check logout functionality after user successfully login" duration="6440">
+<failure message="undefined"><![CDATA[undefined]]></failure>
+</testCase>
+<testCase name="Login method: check login api 404 redirect to not found page" duration="2093"/>
+<testCase name="Login method: check clearing local storage redirects to login page" duration="3878"/>
+<testCase name="Login method: check terms and condition has url " duration="1833"/>
+<testCase name="Login method: check error message display " duration="1928"/>
+<testCase name="Login method: check button state after click" duration="2418"/>
+<testCase name="Login method: check user login with API success" duration="3502"/>
+<testCase name="Login method: check user login with API failed with random username and password" duration="4167"/>
+<testCase name="Login method: check button disbaled if username is not valid" duration="2868"/>
+<testCase name="Login method: check button disbaled if password is not valid" duration="2030"/>
+<testCase name="Login method: check redirection logic after login success" duration="5579"/>
+</file>
+</testExecutions>
