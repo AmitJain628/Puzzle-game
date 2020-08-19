@@ -3411,7 +3411,7 @@
       "publicPath": "/assets/vendors.js"
     }
   ],
-  "../utils/warning": [
+  "./warning": [
     {
       "id": "./node_modules/react-redux/es/utils/warning.js",
       "name": "./node_modules/react-redux/es/utils/warning.js",
