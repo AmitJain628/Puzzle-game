@@ -54,8 +54,8 @@ export const configureStore = (initialState: object = {}) => {
 
 let store: IStore;
 try {
-  const initialState = (window as IWindow).__INITIAL_STATE__;
-  delete (window as IWindow).__INITIAL_STATE__;
+  // tslint:disable-next-line:no-string-literal
+  const initialState = window['__INITIAL_STATE__'];
   store = configureStore(initialState);
 } catch (_e) {
   store = configureStore();
