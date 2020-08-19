@@ -1,12 +1,9 @@
 {
   "client": [
-    "/assets/vendors.js",
-    "/assets/client.js"
-  ],
-  "null": [
-    "/assets/0.js"
+    "/assets/vendors.dc639b53.js",
+    "/assets/client.393e48d6.js"
   ],
   "home": [
-    "/assets/home.js"
+    "/assets/home.882802f5.js"
   ]
 }
