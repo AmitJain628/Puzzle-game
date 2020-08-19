@@ -8,7 +8,7 @@ export interface ICustomBunyan extends bunyan {
 }
 
 const config = {
-  name: 'eshop-oneshop-ui',
+  name: 'puzzle',
   streams: [
     {
       level: 'info',
