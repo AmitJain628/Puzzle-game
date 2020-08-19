@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import isMobilejs from 'ismobilejs';
 
 import { breakpoints, colors } from './variables';
 // tslint:disable
@@ -63,44 +62,10 @@ body {
   }
 
 
-/* LandscapeModePlaceholder */
-
-
-
-  ${
-    isMobilejs.phone
-      ? `
-   @media (min-width: 480px) and (orientation: landscape) {
-    body{
-      overflow: hidden;
-    }
-    div.landscapeModePlaceholder{
-      display: flex;
-    }
-    div.styledAppInner{
-      display: none;
-    }
-  }
-  `
-      : null
-  }
-
 
 /*** RESET CSS ***/
 html {
   font-family: 'TeleGrotesk Next' !important;
-}
-
-@media (min-width: 1366px) {
-  html {
-    font-size: 20px !important;
-  }
-}
-
-@media (max-width: 1365px) {
-  html {
-    font-size: 16px !important;
-  }
 }
 
 button:focus {

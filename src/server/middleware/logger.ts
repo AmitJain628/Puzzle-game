@@ -12,11 +12,11 @@ const config = {
   streams: [
     {
       level: 'info',
-      path: 'logs/eshop-oneshop-ui-dev-out-app.log'
+      path: 'logs/puzzle-game-ui-dev-out-app.log'
     },
     {
       level: 'error',
-      path: 'logs/eshop-oneshop-ui-dev-error-app.log'
+      path: 'logs/puzzle-game-ui-dev-error-app.log'
     }
   ]
 };

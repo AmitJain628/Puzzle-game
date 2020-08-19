@@ -3131,14 +3131,6 @@
       "publicPath": "/assets/vendors.js"
     }
   ],
-  "ismobilejs": [
-    {
-      "id": "./node_modules/ismobilejs/dist/isMobile.min.js",
-      "name": "./node_modules/ismobilejs/dist/isMobile.min.js",
-      "file": "vendors.js",
-      "publicPath": "/assets/vendors.js"
-    }
-  ],
   "memoize-one": [
     {
       "id": "./node_modules/memoize-one/dist/memoize-one.esm.js",

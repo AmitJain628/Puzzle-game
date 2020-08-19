@@ -3,7 +3,7 @@
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 
 workbox.core.setCacheNameDetails({
-  prefix: 'e-commerce',
+  prefix: 'puzzle',
   precache: 'install-time',
   suffix: 'v1',
   runtime: 'run-time',
@@ -20,22 +20,12 @@ workbox.precaching.suppressWarnings();
 // precahce and route asserts built by webpack
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-// // return app shell for all navigation requests
-// workbox.routing.registerNavigationRoute('/app-shell');
-
-// // routing for api
-// workbox.routing.registerRoute(
-//   /^https:\/\/dog\.ceo/i,
-//   workbox.strategies.networkFirst({
-//     cacheName: 'e-commerce-api-cache'
-//   })
-// );
 
 // routing for cloud served images
 workbox.routing.registerRoute(
   /^https:\/\/.+\.(jpe?g|png|gif|svg|woff2|ico)$/i,
   workbox.strategies.cacheFirst({
-    cacheName: 'e-commerce-image-cache',
+    cacheName: 'puzzle-image-cache',
     plugins: [
       new workbox.expiration.Plugin({
         maxAgeSeconds: 7 * 24 * 60 * 60,

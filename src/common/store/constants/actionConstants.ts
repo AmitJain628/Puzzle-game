@@ -1,5 +1,5 @@
-const namespace = 'ESHOP';
+const namespace = 'PUZZLE';
 
 export default {
-  SET_CURRENCY_VALUE: `${namespace}_SET_CURRENCY_VALUE`,
+  SET_INTI: `${namespace}_SET_INTI`,
 };

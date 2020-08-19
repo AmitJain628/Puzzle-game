@@ -16,7 +16,6 @@ import App from '@common/App';
 import { getBundles } from 'react-loadable/webpack';
 import mime from 'mime-types';
 import { IChunk, IError, IRouterContext } from '@server/types';
-import initApm from 'elastic-apm-node';
 
 import logger from './middleware/logger';
 import getBasicSettings from './middleware/basicSettings';
@@ -52,15 +51,6 @@ app.use(
     },
   }),
 );
-
-if (!__DEV__) {
-  const apm = initApm.start({
-    serviceName: process.env.APM_SERVER_NAME,
-    serverUrl: process.env.APM_SERVER_URL,
-  });
-
-  logger.info(`APM intialized ${apm}`);
-}
 
 app.get('/sw.js', (_, res) => {
   res.sendFile(path.resolve(__dirname, 'public/assets/sw.js'));
